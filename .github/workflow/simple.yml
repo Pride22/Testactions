@@ -7,3 +7,14 @@ jobs:
    runs-on: ubuntu-latest
    steps:
    - name: checkout
+
+  # uses: actions|checkoutev3(latest)
+
+    - name:echo string
+      run echo "Hello World"
+    - name:multi string
+      run: 1
+      node -v
+      npm -v
+  
+  
